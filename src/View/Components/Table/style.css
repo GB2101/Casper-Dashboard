@@ -1,0 +1,31 @@
+.table {
+	width: 75vw;
+	max-width: 1024px;
+	display: flex;
+	flex-direction: column;
+}
+
+.table-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.table-header h1 {
+	border: 1px solid #353535;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 20px 0;
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 400;
+	background-color: #5e5e5e;
+}
+
+.table-theme {
+	width: 5%;
+}
+
+.table-cell {
+	width: 20%;
+}
