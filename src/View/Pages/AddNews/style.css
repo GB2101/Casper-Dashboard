@@ -1,0 +1,42 @@
+.news {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.news-form {
+	padding-top: 50px;
+	width: 50vw;
+	max-width: 512px;
+}
+
+.news-selector {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.news-selector select {
+	padding: 10px 25px;
+	margin-left: 15px;
+	font-size: 20px;
+	border-radius: 15px;
+	border: 1px solid #333333;
+	color: #525252;
+	background-color: #ffffff;
+}
+
+.news-button {
+	margin: 20px 0 50px;
+	padding: 10px 50px;
+
+	border: 1px solid #353535;
+	border-radius: 10px;
+
+	background-color: #525252;
+	color: #ffffff;
+}
+
+.news-button:hover {
+	background-color: rgba(82, 82, 82, 0.6);
+}
